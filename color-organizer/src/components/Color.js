@@ -17,3 +17,5 @@ export default function Color({id,title,color,rating,onRemove=f=>f,onRate=f=>f})
         </section>
     );
 }
+
+

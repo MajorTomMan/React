@@ -30,3 +30,4 @@ export default function AddColorForm({onNewColor=f=>f}){
         </form>
     );
 }
+

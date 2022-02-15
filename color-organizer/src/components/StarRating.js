@@ -28,3 +28,5 @@ export default function StarRating({selectedStars=0,totalStars=5,onRate=f=>f}){
     </>
     )
 }
+
+
