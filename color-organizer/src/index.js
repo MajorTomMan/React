@@ -1,11 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import App from './components/App';
 import './index.css';
+import {render} from "react-dom"
+import ColorProvider from './components/Color-Hooks';
 
 
-ReactDOM.render(
-  <App />,document.getElementById("root")
-)
+render(
+  <ColorProvider>
+      <App />
+  </ColorProvider>,
+  document.getElementById("root")
+);
 
 
