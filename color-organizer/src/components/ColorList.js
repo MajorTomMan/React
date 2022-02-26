@@ -18,6 +18,6 @@ export default function ColorList(){
                 colors.map(
                     color=>(<Color key={color.id} {...color} />)
                 )
-            };
+            }
         </div>)
 }
